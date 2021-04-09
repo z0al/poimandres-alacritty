@@ -27,14 +27,6 @@ Simply copy the content of any of the themes at `./theme/` into your `alacritty.
 
 That's it!
 
-## Credits
-
-Especial thanks to the authors of these projects:
-
-- [Poimandres for VS Code][poimandres]: The original theme.
-- [ditto][ditto]: A CLI tool to convert your VSCode theme to an iTerm2 theme. Used to convert the original theme to Iterm2 colors.
-- [colortty][colortty]: A utility to generate color schemes for alacritty. I used to convert the output of [ditto][ditto] to Alacritty then I modified some of the values.
-
 ## Tip
 
 To get the same look as in the screenshots you need the followings:
@@ -47,6 +39,19 @@ To get the same look as in the screenshots you need the followings:
 
 You can also find my complete dotfiles [here][dotfiles]
 
+## Related
+
+- [poimandres-theme][poimandres]: VS Code version
+- [poimandres-iterm][poimandres-iterm]: Iterm version
+
+## Credits
+
+Especial thanks to the authors of these projects:
+
+- [Poimandres for VS Code][poimandres]: The original theme.
+- [ditto][ditto]: I used it to convert the original VSCode theme to an iTerm2 colors.
+- [colortty][colortty]: I used it to convert the output of [ditto][ditto] to Alacritty then modified the output a bit.
+
 [poimandres]: https://github.com/drcmda/poimandres-theme
 [alacritty]: https://github.com/alacritty/alacritty
 [ditto]: https://github.com/campvanilla/ditto
@@ -54,3 +59,4 @@ You can also find my complete dotfiles [here][dotfiles]
 [starship]: https://starship.rs/
 [dotfiles]: https://github.com/z0al/dotfiles
 [zsh-syx]: https://github.com/zsh-users/zsh-syntax-highlighting
+[poimandres-iterm]: https://github.com/alii/poimandres-iterm/
